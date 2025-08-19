@@ -208,8 +208,13 @@ const Home = () => {
               {/* Download Buttons */}
               <div className="flex flex-wrap gap-4">
                 <button className="flex items-center gap-3 bg-black text-white px-6 py-4 rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105">
-                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
-                    <Download className="w-5 h-5" />
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/app-store.png"
+                      alt="logo"
+                      width={100} // Required for remote images
+                      height={100} // Required for remote images
+                    />
                   </div>
                   <div className="text-left">
                     <div className="text-xs opacity-80">Download on the</div>
@@ -218,8 +223,13 @@ const Home = () => {
                 </button>
 
                 <button className="flex items-center gap-3 bg-black text-white px-6 py-4 rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105">
-                  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
-                    <Play className="w-5 h-5" />
+                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                    <Image
+                      src="/google-play.png"
+                      alt="logo"
+                      width={100} // Required for remote images
+                      height={100} // Required for remote images
+                    />
                   </div>
                   <div className="text-left">
                     <div className="text-xs opacity-80">Get it on</div>
@@ -255,7 +265,7 @@ const Home = () => {
                   <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
                     {/* App Screen */}
                     <div className="bg-gradient-to-br from-blue-600 to-blue-400 h-full flex flex-col items-center justify-center text-white p-8">
-                      <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mb-6 backdrop-blur-sm">
+                      <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mb-6 backdrop-blur-sm">
                         <Image
                           src="/logo.png"
                           alt="logo"
@@ -494,14 +504,26 @@ const Home = () => {
               {/* Vision Simulation */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-2xl p-4">
-                  <div className="w-full h-40 bg-gradient-to-br from-green-400 to-blue-400 rounded-xl mb-3"></div>
+                  <div className="w-full max-h-fit bg-gradient-to-br from-green-400 to-blue-400 rounded-xl mb-3 overflow-hidden">
+                    <Image
+                      src="/normal-vision.png"
+                      alt="normal-vision"
+                      width={250} // Required for remote images
+                      height={250} // Required for remote images
+                    />
+                  </div>
                   <p className="text-gray-800 font-semibold text-center">
                     Normal Vision
                   </p>
                 </div>
                 <div className="bg-white rounded-2xl p-4">
-                  <div className="w-full h-40 bg-gradient-to-br from-green-400 to-blue-400 rounded-xl mb-3 relative overflow-hidden">
-                    <div className="absolute inset-4 bg-black rounded-full"></div>
+                  <div className="w-full max-h-fit bg-gradient-to-br from-green-400 to-blue-400 rounded-xl mb-3 relative overflow-hidden">
+                    <Image
+                      src="/glaucoma-vision.png"
+                      alt="glaucoma-vision"
+                      width={250}
+                      height={250}
+                    />
                   </div>
                   <p className="text-gray-800 font-semibold text-center">
                     With Glaucoma
@@ -940,7 +962,7 @@ const Home = () => {
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>support@glaucocare.in</span>
+                  <span>support@glaucocare.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
@@ -956,7 +978,7 @@ const Home = () => {
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2024 GlaucoCare. All rights reserved. | Privacy Policy |
+              &copy; 2025 GlaucoCare. All rights reserved. | Privacy Policy |
               Terms of Service
             </p>
           </div>
