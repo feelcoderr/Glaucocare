@@ -928,24 +928,28 @@ const Home = () => {
               </p>
               <div className="flex gap-3 sm:gap-4 justify-center sm:justify-start">
                 <a
+                  target="_blank"
                   href="https://www.facebook.com/people/Glaucocare/61581924631472/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
+                  target="_blank"
                   href="#"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.linkedin.com/company/glaucocare"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.instagram.com/glaucocare_app/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
