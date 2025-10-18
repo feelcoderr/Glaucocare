@@ -928,7 +928,7 @@ const Home = () => {
               </p>
               <div className="flex gap-3 sm:gap-4 justify-center sm:justify-start">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/people/Glaucocare/61581924631472/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -940,13 +940,13 @@ const Home = () => {
                   <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/glaucocare"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/glaucocare_app/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 >
                   <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -1017,7 +1017,7 @@ const Home = () => {
               <ul className="space-y-2 sm:space-y-3 text-gray-400 text-sm sm:text-base">
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-                  <span className="break-all">support@glaucocare.com</span>
+                  <span className="break-all">admin@glaucocare.in</span>
                 </li>
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
