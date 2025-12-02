@@ -66,14 +66,14 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Alert Banner */}
-      <div className="bg-gradient-to-r from-amber-500 to-orange-500 text-white py-2 px-3 sm:px-4 text-center">
-        <p className="text-xs sm:text-sm font-medium flex items-center justify-center gap-2">
-          <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-          <span className="line-clamp-1">
-            January is Glaucoma Awareness Month - 50% don`t know they have it
-          </span>
-        </p>
-      </div>
+      // <div className="bg-gradient-to-r from-amber-500 to-orange-500 text-white py-2 px-3 sm:px-4 text-center">
+      //   <p className="text-xs sm:text-sm font-medium flex items-center justify-center gap-2">
+      //     <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+      //     <span className="line-clamp-1">
+      //       January is Glaucoma Awareness Month - 50% don`t know they have it
+      //     </span>
+      //   </p>
+      // </div>
 
       {/* Navigation */}
       <nav
@@ -113,7 +113,7 @@ const Home = () => {
               >
                 Reviews
               </a>
-              <button className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-sm sm:text-base">
+              <button href="https://forms.gle/83owVxczRSRLm15P7" className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-sm sm:text-base">
                 Download App
               </button>
             </div>
@@ -163,7 +163,7 @@ const Home = () => {
                 >
                   Reviews
                 </a>
-                <button className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-semibold w-full">
+                <button href="https://forms.gle/83owVxczRSRLm15P7" className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-semibold w-full">
                   Download App
                 </button>
               </div>
@@ -212,7 +212,7 @@ const Home = () => {
 
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                <button className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
+                <button href="https://forms.gle/83owVxczRSRLm15P7" className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white rounded-lg flex items-center justify-center">
                     <Image
                       src="/app-store.png"
@@ -230,7 +230,7 @@ const Home = () => {
                   </div>
                 </button>
 
-                <button className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
+                <button href="https://forms.gle/83owVxczRSRLm15P7" className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white rounded-lg flex items-center justify-center">
                     <Image
                       src="/google-play.png"
@@ -241,6 +241,7 @@ const Home = () => {
                     />
                   </div>
                   <div className="text-left">
+                        
                     <div className="text-xs opacity-80">Get it on</div>
                     <div className="text-base sm:text-lg font-semibold">
                       Google Play
@@ -876,7 +877,7 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8">
-            <button className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center gap-2">
+            <button href="https://forms.gle/83owVxczRSRLm15P7" className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center gap-2">
               <Smartphone className="w-4 h-4 sm:w-5 sm:h-5" />
               Download Free App
             </button>
@@ -1025,7 +1026,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-                  <span>1800-123-4567</span>
+                  <span>+91 7621083656</span>
                 </li>
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
