@@ -66,6 +66,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Alert Banner */}
+      {/*
       <div className="bg-gradient-to-r from-amber-500 to-orange-500 text-white py-2 px-3 sm:px-4 text-center">
         <p className="text-xs sm:text-sm font-medium flex items-center justify-center gap-2">
           <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
@@ -74,6 +75,7 @@ const Home = () => {
           </span>
         </p>
       </div>
+      */}
 
       {/* Navigation */}
       <nav
@@ -113,15 +115,23 @@ const Home = () => {
               >
                 Reviews
               </a>
-              <button className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-sm sm:text-base">
+
+              {/* Desktop Download (external) */}
+              <a
+                href="https://forms.gle/83owVxczRSRLm15P7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-sm sm:text-base"
+              >
                 Download App
-              </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="lg:hidden p-2"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMenuOpen ? (
                 <X className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -163,9 +173,16 @@ const Home = () => {
                 >
                   Reviews
                 </a>
-                <button className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-semibold w-full">
+
+                {/* Mobile Download (external) */}
+                <a
+                  href="https://forms.gle/83owVxczRSRLm15P7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-semibold w-full"
+                >
                   Download App
-                </button>
+                </a>
               </div>
             </div>
           )}
@@ -212,7 +229,12 @@ const Home = () => {
 
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                <button className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
+                <a
+                  href="https://forms.gle/83owVxczRSRLm15P7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto"
+                >
                   <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white rounded-lg flex items-center justify-center">
                     <Image
                       src="/app-store.png"
@@ -228,9 +250,14 @@ const Home = () => {
                       App Store
                     </div>
                   </div>
-                </button>
+                </a>
 
-                <button className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto">
+                <a
+                  href="https://forms.gle/83owVxczRSRLm15P7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto"
+                >
                   <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white rounded-lg flex items-center justify-center">
                     <Image
                       src="/google-play.png"
@@ -246,7 +273,7 @@ const Home = () => {
                       Google Play
                     </div>
                   </div>
-                </button>
+                </a>
               </div>
 
               {/* Stats */}
@@ -461,9 +488,9 @@ const Home = () => {
                   complete blindness.
                 </p>
 
-                {/* Tabs */}
+                {/* Tabs (added 'Tips' tab) */}
                 <div className="flex flex-wrap gap-2 sm:gap-4 mb-4 sm:mb-6">
-                  {["symptoms", "stages", "prevention"].map((tab) => (
+                  {["symptoms", "stages", "prevention", "tips"].map((tab) => (
                     <button
                       key={tab}
                       onClick={() => setActiveTab(tab)}
@@ -472,6 +499,7 @@ const Home = () => {
                           ? "bg-white text-blue-600"
                           : "bg-white/20 text-white hover:bg-white/30"
                       }`}
+                      aria-pressed={activeTab === tab}
                     >
                       {tab.charAt(0).toUpperCase() + tab.slice(1)}
                     </button>
@@ -525,6 +553,22 @@ const Home = () => {
                       <li className="flex items-start gap-2 text-sm sm:text-base">
                         <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-0.5 flex-shrink-0" />
                         <span>Protect eyes from injury</span>
+                      </li>
+                    </ul>
+                  )}
+                  {activeTab === "tips" && (
+                    <ul className="space-y-2 text-sm sm:text-base">
+                      <li className="flex items-start gap-2">
+                        <span className="font-semibold">Tip 1:</span>
+                        <span>Track medication times — set phone reminders.</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="font-semibold">Tip 2:</span>
+                        <span>Avoid rubbing eyes and protect from injury.</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="font-semibold">Tip 3:</span>
+                        <span>Share compliance reports with your doctor.</span>
                       </li>
                     </ul>
                   )}
@@ -876,14 +920,23 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8">
-            <button className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center gap-2">
+            <a
+              href="https://forms.gle/83owVxczRSRLm15P7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl transition-all transform hover:scale-105 gap-2"
+            >
               <Smartphone className="w-4 h-4 sm:w-5 sm:h-5" />
               Download Free App
-            </button>
-            <button className="bg-transparent border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-white hover:text-blue-600 transition-all flex items-center justify-center gap-2">
+            </a>
+
+            <a
+              href="#about"
+              className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-white hover:text-blue-600 transition-all gap-2"
+            >
               <BookOpen className="w-4 h-4 sm:w-5 sm:h-5" />
               Learn More
-            </button>
+            </a>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm">
@@ -931,6 +984,7 @@ const Home = () => {
                   target="_blank"
                   href="https://www.facebook.com/people/Glaucocare/61581924631472/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  rel="noopener noreferrer"
                 >
                   <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
@@ -938,6 +992,7 @@ const Home = () => {
                   target="_blank"
                   href="#"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  rel="noopener noreferrer"
                 >
                   <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
@@ -945,6 +1000,7 @@ const Home = () => {
                   target="_blank"
                   href="https://www.linkedin.com/company/glaucocare"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  rel="noopener noreferrer"
                 >
                   <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
@@ -952,6 +1008,7 @@ const Home = () => {
                   target="_blank"
                   href="https://www.instagram.com/glaucocare_app/"
                   className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  rel="noopener noreferrer"
                 >
                   <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
@@ -964,22 +1021,22 @@ const Home = () => {
               </h3>
               <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#about" className="hover:text-white transition-colors">
                     About Glaucoma
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#features" className="hover:text-white transition-colors">
                     App Features
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#testimonials" className="hover:text-white transition-colors">
                     Doctor Directory
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#contact" className="hover:text-white transition-colors">
                     Support
                   </a>
                 </li>
@@ -1025,7 +1082,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-                  <span>1800-123-4567</span>
+                  <span>+91 7621083656</span>
                 </li>
                 <li className="flex items-center gap-2 justify-center sm:justify-start">
                   <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -1091,3 +1148,4 @@ const Home = () => {
 };
 
 export default Home;
+
