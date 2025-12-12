@@ -12,14 +12,15 @@ export default function Terms() {
       <main>
         <h1>TERMS AND CONDITIONS</h1>
         <p className="center">GlaucoCare Mobile Application</p>
-        <p className="center">Last Updated: December 11, 2024</p>
+        <p className="center">Last Updated: December 12, 2025</p>
 
         <h2>1. INTRODUCTION AND ACCEPTANCE</h2>
 
         <p>
           These Terms and Conditions govern your use of the GlaucoCare mobile
           application. By downloading, installing, or using this app, you agree
-          to be bound by these terms. If you do not agree, do not use the app.
+          to be bound by these terms. The GlaucoCare app is intended for users
+          aged 13 years and older. If you do not agree, do not use the app.
         </p>
 
         <p>
@@ -103,10 +104,11 @@ export default function Terms() {
         <h2>4. ELIGIBILITY</h2>
 
         <p>
-          You must be at least 18 years old to use this app. If you are under
-          18, you may use the app only with involvement and consent of a parent
-          or legal guardian.
+          You must be at least 13 years old to use this app. If you are between
+          13 and 17 years old, you may use the app only with involvement and
+          consent of a parent or legal guardian.
         </p>
+        <p>Users under the age of 13 are not permitted to use this app.</p>
 
         <h2>5. USER ACCOUNT</h2>
 
@@ -579,8 +581,10 @@ export default function Terms() {
         </p>
 
         <p>
-          Intended Users: Adults (18+) with glaucoma or at risk for glaucoma,
-          caregivers, and individuals seeking glaucoma education.
+          Intended Users: Individuals aged 13 years and older with glaucoma or
+          at risk for glaucoma, caregivers, and individuals seeking glaucoma
+          education. Users aged 13–17 should use the app with parental or
+          guardian involvement, where applicable.
         </p>
 
         <p>
@@ -650,7 +654,10 @@ export default function Terms() {
 
         <p>You understand the app collects and uses your data as described</p>
 
-        <p>You are 18 or older, or have parental consent</p>
+        <p>
+          You are 13 years or older, or you are using the app with parental or
+          legal guardian consent.
+        </p>
 
         <p>IF YOU DO NOT AGREE, DO NOT USE THE APP.</p>
 
@@ -658,7 +665,7 @@ export default function Terms() {
 
         <p className="center">End of Terms and Conditions</p>
         <p className="center">Version 1.0</p>
-        <p className="center">Last Updated: December 11, 2024</p>
+        <p className="center">Last Updated: December 12, 2025</p>
 
         <style jsx>{`
           main {

@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           <div className="header">
             <div className="logo">GlaucoCare</div>
             <h1>Privacy Policy</h1>
-            <p className="last-updated">Last Updated: December 12, 2024</p>
+            <p className="last-updated">Last Updated: December 12, 2025</p>
           </div>
 
           <div className="important-notice">
@@ -766,16 +766,16 @@ export default function PrivacyPolicy() {
             <h2>10. Children&apos;s Privacy</h2>
 
             <p>
-              GlaucoCare is intended for users aged 18 and above. We do not
-              knowingly collect personal information from individuals under 18
-              years of age.
+              GlaucoCare is intended for users aged 13 years and older.We do not
+              knowingly collect personal information from children under the age
+              of 13.
             </p>
 
             <h3>10.1 Age Requirement</h3>
             <ul>
-              <li>Users must be at least 18 years old to create an account</li>
+              <li>Users must be at least 13 years old to create an account</li>
               <li>
-                If a user is under 18, they may only use the app with parental
+                If a user is under 13, they may only use the app with parental
                 or guardian supervision and consent
               </li>
             </ul>
@@ -783,8 +783,8 @@ export default function PrivacyPolicy() {
             <h3>10.2 If We Discover Minor Usage</h3>
             <p>
               If we become aware that we have collected personal information
-              from someone under 18 without parental consent, we will take steps
-              to delete that information as soon as possible.
+              from a child under 13 without verified parental consent, we will
+              take steps to delete that information promptly.
             </p>
 
             <h3>10.3 Parental Rights</h3>
@@ -961,9 +961,9 @@ export default function PrivacyPolicy() {
               fontSize: 14,
             }}
           >
-            © 2024 GlaucoCare Team. All rights reserved.
+            © 2025 GlaucoCare Team. All rights reserved.
             <br />
-            Version 1.0 | Last Updated: December 12, 2024
+            Version 1.0 | Last Updated: December 12, 2025
           </p>
         </div>
 
