@@ -32,7 +32,7 @@ import {
   Award,
   TrendingUp,
 } from "lucide-react";
-
+import Link from "next/link";
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -109,13 +109,18 @@ const Home = () => {
               >
                 Features
               </a>
-              <a
-                href="#testimonials"
+              <Link
+                href="/doctors"
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
-                Reviews
-              </a>
-
+                Doctors
+              </Link>
+              <Link
+                href="/assessment"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                Assessment
+              </Link>
               {/* Desktop Download (external) */}
               <a
                 href="https://forms.gle/83owVxczRSRLm15P7"
@@ -560,7 +565,9 @@ const Home = () => {
                     <ul className="space-y-2 text-sm sm:text-base">
                       <li className="flex items-start gap-2">
                         <span className="font-semibold">Tip 1:</span>
-                        <span>Track medication times — set phone reminders.</span>
+                        <span>
+                          Track medication times — set phone reminders.
+                        </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="font-semibold">Tip 2:</span>
@@ -1021,22 +1028,34 @@ const Home = () => {
               </h3>
               <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 <li>
-                  <a href="#about" className="hover:text-white transition-colors">
+                  <a
+                    href="#about"
+                    className="hover:text-white transition-colors"
+                  >
                     About Glaucoma
                   </a>
                 </li>
                 <li>
-                  <a href="#features" className="hover:text-white transition-colors">
+                  <a
+                    href="#features"
+                    className="hover:text-white transition-colors"
+                  >
                     App Features
                   </a>
                 </li>
                 <li>
-                  <a href="#testimonials" className="hover:text-white transition-colors">
+                  <a
+                    href="#testimonials"
+                    className="hover:text-white transition-colors"
+                  >
                     Doctor Directory
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-white transition-colors">
+                  <a
+                    href="#contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Support
                   </a>
                 </li>
@@ -1148,4 +1167,3 @@ const Home = () => {
 };
 
 export default Home;
-
