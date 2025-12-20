@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Privacy Policy for GlaucoCare - Glaucoma Management Mobile Application"
+          content="Privacy Policy for GlaucoCare - Eye Health Awareness and Educational Mobile Application"
         />
         <title>Privacy Policy - GlaucoCare</title>
       </Head>
@@ -18,14 +18,14 @@ export default function PrivacyPolicy() {
           <div className="header">
             <div className="logo">GlaucoCare</div>
             <h1>Privacy Policy</h1>
-            <p className="last-updated">Last Updated: December 12, 2025</p>
+            <p className="last-updated">Last Updated: December 20, 2025</p>
           </div>
 
           <div className="important-notice">
             <strong>Important:</strong> GlaucoCare is committed to protecting
             your privacy and securing your personal health information. This
             Privacy Policy explains how we collect, use, share, and protect your
-            data when you use our mobile application.
+            data when you use our Health and Fitness mobile application.
           </div>
 
           <div className="table-of-contents">
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
                 <a href="#third-party">9. Third-Party Services</a>
               </li>
               <li>
-                <a href="#children">10. Children&apos;s Privacy</a>
+                <a href="#age-restrictions">10. Age Restrictions</a>
               </li>
               <li>
                 <a href="#international">11. International Data Transfers</a>
@@ -84,18 +84,26 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              GlaucoCare is a glaucoma management application designed to help
-              users manage their eye health through educational resources,
-              medication reminders, doctor information, and health tracking
-              features.
+              GlaucoCare is an eye health awareness and educational application
+              designed to help users learn about glaucoma, organize their
+              personal health information, and support their eye health journey
+              through educational resources and personal organization tools.
             </p>
 
+            <div className="important-notice">
+              <p>
+                <strong>App Classification:</strong> GlaucoCare is a HEALTH AND
+                FITNESS application. It is NOT a medical application, medical
+                device, diagnostic tool, or treatment service.
+              </p>
+            </div>
+
             <p>
-              <strong>Important Medical Disclaimer:</strong> GlaucoCare is NOT a
-              medical device and is NOT approved or regulated by any medical
-              regulatory authority. This app does NOT diagnose, treat, cure, or
-              prevent any medical condition. Always consult qualified healthcare
-              professionals for medical advice.
+              <strong>Important Medical Disclaimer:</strong> GlaucoCare does NOT
+              provide medical services, diagnosis, treatment, or clinical care.
+              This app does NOT diagnose, treat, cure, or prevent any medical
+              condition. Always consult qualified healthcare professionals for
+              medical advice.
             </p>
 
             <p>
@@ -117,7 +125,7 @@ export default function PrivacyPolicy() {
             <ul>
               <li>
                 <strong>Account Information:</strong> Name, email address,
-                mobile phone number, gender, date of birth
+                mobile phone number, gender (optional), date of birth (optional)
               </li>
               <li>
                 <strong>Profile Information:</strong> Profile photograph
@@ -131,32 +139,34 @@ export default function PrivacyPolicy() {
 
             <h3>2.2 Health-Related Information</h3>
             <p>
-              To provide our health management features, we collect and store:
+              To provide our organizational and reminder features, we collect
+              and store:
             </p>
             <ul>
               <li>
-                <strong>Medication Information:</strong> Medication names,
-                dosage schedules, reminder preferences, and medication tracking
-                data
+                <strong>Medication Reminder Information:</strong> Medication
+                names you enter, reminder schedules you set, reminder completion
+                status
               </li>
               <li>
-                <strong>Medical Documents:</strong> Test results, prescriptions,
-                and other medical documents you choose to upload
+                <strong>Personal Health Documents:</strong> Test results,
+                prescriptions, and other documents YOU choose to upload
               </li>
               <li>
-                <strong>Symptom Information:</strong> Any symptoms or health
-                information you provide when using the app&apos;s assessment
-                features
+                <strong>Questionnaire Responses:</strong> Responses to
+                educational questionnaires about glaucoma risk factors
               </li>
               <li>
-                <strong>Exercise Activity:</strong> Data from eye exercises and
-                peripheral vision games you complete
-              </li>
-              <li>
-                <strong>Assessment Results:</strong> Responses and results from
-                glaucoma risk assessments
+                <strong>Eye Activity Records:</strong> Your completion of eye
+                exercises and vision activities
               </li>
             </ul>
+
+            <p>
+              <strong>Important:</strong> We collect this information solely for
+              YOUR personal organization only. We do NOT analyze, interpret, or
+              make medical judgments about your health information.
+            </p>
 
             <h3>2.3 Usage and Device Information</h3>
             <p>
@@ -191,13 +201,14 @@ export default function PrivacyPolicy() {
             </p>
             <ul>
               <li>
-                When you view doctor profiles with location information, the app
-                may use Google Maps to display locations
+                When you search for doctors or events near you, location may be
+                used temporarily with your permission
               </li>
               <li>
-                If you grant location permissions, this is only used to show
-                nearby locations on maps and is not stored by us
+                When you view doctor profiles, the app may use Google Maps to
+                display locations
               </li>
+              <li>Location data is NOT stored by us</li>
             </ul>
 
             <h3>2.5 Information from Third-Party Authentication</h3>
@@ -216,11 +227,11 @@ export default function PrivacyPolicy() {
             <ul>
               <li>
                 <strong>Camera:</strong> To capture profile photos and
-                photograph medical documents
+                photograph personal health documents
               </li>
               <li>
                 <strong>Photo Library:</strong> To select existing photos for
-                profile pictures or medical documents
+                profile pictures or personal documents
               </li>
             </ul>
             <p>
@@ -235,6 +246,18 @@ export default function PrivacyPolicy() {
 
             <p>We use the collected information for the following purposes:</p>
 
+            <div className="important-notice">
+              <p>
+                <strong>Purpose Clarification:</strong> GlaucoCare is a Health &
+                Fitness app focused on education, awareness, and personal
+                organization. We use your information solely for personal
+                organization, educational purposes, and convenience features
+                (like reminders). We do NOT use your information for medical
+                diagnosis, treatment, clinical decision-making, or health
+                assessment purposes.
+              </p>
+            </div>
+
             <h3>3.1 Core App Functionality</h3>
             <ul>
               <li>
@@ -243,35 +266,35 @@ export default function PrivacyPolicy() {
                 experience
               </li>
               <li>
-                <strong>Medication Reminders:</strong> Send timely notifications
-                for your medication schedules
+                <strong>Reminder Services:</strong> Send timely notifications
+                for medication reminders you set
               </li>
               <li>
-                <strong>Document Storage:</strong> Store and organize your
-                medical documents securely for easy access
+                <strong>Personal Document Organization:</strong> Store and
+                organize your personal health documents securely for easy access
               </li>
               <li>
-                <strong>Doctor Information:</strong> Display doctor profiles,
-                contact information, and locations to help you find healthcare
+                <strong>Doctor Information Display:</strong> Display doctor
+                contact information and locations to help you find healthcare
                 providers
               </li>
               <li>
-                <strong>Educational Content:</strong> Provide relevant
-                educational resources, blog posts, and videos about glaucoma
-                management
+                <strong>Educational Content Delivery:</strong> Provide relevant
+                educational resources, blog posts, and videos about glaucoma and
+                eye health
               </li>
               <li>
-                <strong>Health Tracking:</strong> Track your exercise activities
-                and maintain health assessment records
+                <strong>Personal Records:</strong> Maintain your questionnaire
+                responses and activity records for your reference
               </li>
             </ul>
 
             <h3>3.2 Communication</h3>
             <ul>
-              <li>Send important notifications about app functionality</li>
+              <li>Send reminder notifications based on schedules you set</li>
               <li>Provide customer support and respond to your inquiries</li>
               <li>Send updates about new features or changes to the app</li>
-              <li>Deliver medication reminder notifications</li>
+              <li>Deliver informational notifications about eye health</li>
             </ul>
 
             <h3>3.3 App Improvement and Analytics</h3>
@@ -313,48 +336,52 @@ export default function PrivacyPolicy() {
               circumstances:
             </p>
 
-            <h3>4.1 With Your Consent</h3>
+            <h3>4.1 With Your Explicit Consent</h3>
             <p>
               We will share your information when you explicitly give us
-              permission to do so. For example, if you choose to share your
-              medical documents with someone.
+              permission to do so.
             </p>
 
-            <h3>4.2 Direct Communication with Healthcare Providers</h3>
+            <h3>4.2 When You Communicate Directly with Healthcare Providers</h3>
             <p>
               When you use the app&apos;s communication features to contact
               doctors (phone call, WhatsApp, email):
             </p>
             <ul>
               <li>
-                You are communicating directly with the healthcare provider
+                You are communicating DIRECTLY with the healthcare provider
               </li>
               <li>
-                We do NOT intercept, monitor, or store these communications
+                We do NOT intercept, monitor, record, or store these
+                communications
               </li>
               <li>
-                The doctor receives only the information you choose to share
+                The doctor receives only the information YOU choose to share
                 during your direct communication
               </li>
               <li>
                 We are NOT responsible for how doctors handle information you
                 share with them
               </li>
+              <li>
+                This is NOT telehealth or medical consultation - it is simply
+                providing contact information
+              </li>
             </ul>
 
-            <h3>4.3 Service Providers</h3>
+            <h3>4.3 With Service Providers</h3>
             <p>
               We may share information with trusted third-party service
               providers who assist us in operating the app, such as:
             </p>
             <ul>
               <li>
-                <strong>Cloud Storage Providers:</strong> Firebase for data
-                storage and authentication
+                <strong>Cloud Storage Providers:</strong> Firebase for secure
+                data storage and authentication
               </li>
               <li>
                 <strong>Push Notification Services:</strong> For delivering
-                medication reminders
+                reminder notifications
               </li>
               <li>
                 <strong>Analytics Services:</strong> For understanding app usage
@@ -366,7 +393,7 @@ export default function PrivacyPolicy() {
               your information and use it only for the purposes we specify.
             </p>
 
-            <h3>4.4 Legal Requirements</h3>
+            <h3>4.4 For Legal Requirements</h3>
             <p>
               We may disclose your information if required by law, legal
               process, or government request, including to:
@@ -488,16 +515,19 @@ export default function PrivacyPolicy() {
             <h3>6.3 What Happens When You Delete Your Account</h3>
             <p>When you request account deletion:</p>
             <ul>
-              <li>Your account will be deactivated immediately</li>
+              <li>Your account will be deleted immediately</li>
               <li>
                 Your personal information, health data, and uploaded documents
-                will be permanently deleted within 30 days
+                will be permanently deleted
               </li>
               <li>
                 You will lose access to all app features and your stored
                 information
               </li>
               <li>This action is irreversible and cannot be undone</li>
+              <li>All your medication reminder schedules will be deleted</li>
+              <li>All your uploaded documents will be permanently removed</li>
+              <li>All your questionnaire responses will be deleted</li>
             </ul>
 
             <h3>6.4 Data Retention Exceptions</h3>
@@ -597,7 +627,7 @@ export default function PrivacyPolicy() {
             <h3>8.1 Camera Permission</h3>
             <p>
               <strong>Purpose:</strong> To capture profile photos and photograph
-              medical documents
+              personal health documents
             </p>
             <p>
               <strong>When Used:</strong> Only when you actively choose to take
@@ -611,7 +641,7 @@ export default function PrivacyPolicy() {
             <h3>8.2 Photo Library / Storage Access</h3>
             <p>
               <strong>Purpose:</strong> To select existing photos from your
-              device for profile pictures or medical documents
+              device for profile pictures or personal documents
             </p>
             <p>
               <strong>When Used:</strong> Only when you actively select photos
@@ -635,6 +665,10 @@ export default function PrivacyPolicy() {
             <p>
               <strong>Control:</strong> You can enable/disable notifications in
               device settings or app settings at any time
+            </p>
+            <p>
+              <strong>Note:</strong> Notifications are reminders, not medical
+              instructions
             </p>
 
             <h3>8.4 Internet Access</h3>
@@ -674,8 +708,8 @@ export default function PrivacyPolicy() {
 
             <h3>9.1 Firebase (Google)</h3>
             <p>
-              <strong>Used For:</strong> User authentication, cloud storage,
-              push notifications, and app analytics
+              <strong>Used For:</strong> User authentication, secure cloud
+              storage, push notifications, and app analytics
             </p>
             <p>
               <strong>Data Shared:</strong> Account information, usage data,
@@ -686,6 +720,7 @@ export default function PrivacyPolicy() {
               <a
                 href="https://firebase.google.com/support/privacy"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 https://firebase.google.com/support/privacy
               </a>
@@ -702,7 +737,11 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Privacy Policy:</strong>{" "}
-              <a href="https://policies.google.com/privacy" target="_blank">
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://policies.google.com/privacy
               </a>
             </p>
@@ -717,7 +756,11 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Privacy Policy:</strong>{" "}
-              <a href="https://policies.google.com/privacy" target="_blank">
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://policies.google.com/privacy
               </a>
             </p>
@@ -733,12 +776,16 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Privacy Policy:</strong>{" "}
-              <a href="https://www.apple.com/legal/privacy/" target="_blank">
+              <a
+                href="https://www.apple.com/legal/privacy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://www.apple.com/legal/privacy/
               </a>
             </p>
 
-            <h3>9.5 Phone Dialer and WhatsApp</h3>
+            <h3>9.5 WhatsApp and Phone Dialer</h3>
             <p>
               <strong>Used For:</strong> Facilitating direct communication with
               doctors
@@ -750,7 +797,7 @@ export default function PrivacyPolicy() {
             <p>
               <strong>Privacy Note:</strong> Communications through these
               services are subject to their respective privacy policies. We do
-              not monitor or store these communications.
+              not monitor, intercept, or store these communications.
             </p>
 
             <h3>9.6 Third-Party Links</h3>
@@ -762,40 +809,57 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className="section" id="children">
-            <h2>10. Children&apos;s Privacy</h2>
-
-            <p>
-              GlaucoCare is intended for users aged 13 years and older.We do not
-              knowingly collect personal information from children under the age
-              of 13.
-            </p>
+          <div className="section" id="age-restrictions">
+            <h2>10. Age Restrictions</h2>
 
             <h3>10.1 Age Requirement</h3>
-            <ul>
-              <li>Users must be at least 13 years old to create an account</li>
-              <li>
-                If a user is under 13, they may only use the app with parental
-                or guardian supervision and consent
-              </li>
-            </ul>
-
-            <h3>10.2 If We Discover Minor Usage</h3>
             <p>
-              If we become aware that we have collected personal information
-              from a child under 13 without verified parental consent, we will
-              take steps to delete that information promptly.
+              GlaucoCare is intended for users aged{" "}
+              <strong>18 years and older</strong>.
+            </p>
+            <p>
+              You MUST be at least 18 years old to create an account and use
+              this app.
             </p>
 
-            <h3>10.3 Parental Rights</h3>
+            <h3>10.2 No Use by Minors</h3>
             <p>
-              If you are a parent or guardian and believe your child has
-              provided us with personal information, please contact us at{" "}
+              We do NOT knowingly collect personal information from individuals
+              under 18 years of age.
+            </p>
+            <p>If you are under 18:</p>
+            <ul>
+              <li>You are NOT permitted to use this App</li>
+              <li>You may NOT create an account</li>
+              <li>You must immediately stop using the App</li>
+              <li>You must delete the App from your device</li>
+            </ul>
+
+            <h3>10.3 Parental Notice</h3>
+            <p>
+              If you are a parent or guardian and believe your child under 18
+              has used the app, please contact us at{" "}
               <a href="mailto:heli.desai.glaucocare@gmail.com">
                 heli.desai.glaucocare@gmail.com
               </a>
-              , and we will delete the information.
+              .
             </p>
+            <p>We will:</p>
+            <ul>
+              <li>Verify the age of the user</li>
+              <li>Immediately delete the account if user is under 18</li>
+              <li>Permanently delete all associated data</li>
+              <li>Prevent future access</li>
+            </ul>
+
+            <h3>10.4 Why Age 18+?</h3>
+            <p>We require users to be 18 or older because:</p>
+            <ul>
+              <li>Users must be able to enter legally binding agreements</li>
+              <li>The app deals with personal health information</li>
+              <li>Health and medication decisions require adult judgment</li>
+              <li>Simplifies privacy law compliance</li>
+            </ul>
           </div>
 
           <div className="section" id="international">
@@ -913,43 +977,16 @@ export default function PrivacyPolicy() {
             </ul>
           </div>
 
-          <div className="section">
-            <h2>Summary of Key Points</h2>
-            <ul>
-              <li>
-                ✓ We collect personal and health information necessary to
-                provide app functionality
-              </li>
-              <li>
-                ✓ We use your data to provide medication reminders, store
-                documents, and improve the app
-              </li>
-              <li>✓ We do NOT sell your personal information</li>
-              <li>✓ Your data is encrypted and stored securely</li>
-              <li>✓ You can delete your account and data at any time</li>
-              <li>
-                ✓ You have rights to access, correct, and export your data
-              </li>
-              <li>
-                ✓ Communications with doctors are direct and not monitored by us
-              </li>
-              <li>
-                ✓ The app is NOT a medical device and does not provide medical
-                advice
-              </li>
-              <li>✓ We comply with applicable privacy laws and regulations</li>
-            </ul>
-          </div>
-
           <div className="important-notice">
             <p>
-              <strong>Medical Disclaimer:</strong> GlaucoCare is an
-              informational and organizational tool. It is NOT a substitute for
-              professional medical advice, diagnosis, or treatment. Always seek
-              the advice of qualified healthcare providers with questions
-              regarding medical conditions. Never disregard professional medical
-              advice or delay seeking it because of information accessed through
-              this app.
+              <strong>Medical Disclaimer:</strong> GlaucoCare is a Health and
+              Fitness application for educational and organizational purposes.
+              It is NOT a medical application, medical device, diagnostic tool,
+              or treatment service. The app does NOT diagnose medical
+              conditions, provide medical advice or treatment, assess health
+              status or medical risk, prescribe medications, or replace
+              professional medical care. Always consult qualified healthcare
+              providers for medical advice, diagnosis, and treatment.
             </p>
           </div>
 
@@ -963,7 +1000,7 @@ export default function PrivacyPolicy() {
           >
             © 2025 GlaucoCare Team. All rights reserved.
             <br />
-            Version 1.0 | Last Updated: December 12, 2025
+            Version 2.0 | Last Updated: December 20, 2025
           </p>
         </div>
 
@@ -1050,7 +1087,7 @@ export default function PrivacyPolicy() {
             background-color: #e3f2fd;
             padding: 20px;
             border-radius: 5px;
-            margin-top: 30px;
+            margin-top: 20px;
           }
           .table-of-contents {
             background-color: #f5f5f5;
@@ -1070,6 +1107,13 @@ export default function PrivacyPolicy() {
             text-decoration: none;
           }
           .table-of-contents a:hover {
+            text-decoration: underline;
+          }
+          a {
+            color: #2196f3;
+            text-decoration: none;
+          }
+          a:hover {
             text-decoration: underline;
           }
           strong {
