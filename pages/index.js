@@ -123,7 +123,7 @@ const Home = () => {
               </Link>
               {/* Desktop Download (external) */}
               <a
-                href="https://forms.gle/83owVxczRSRLm15P7"
+                href="https://drive.google.com/file/d/1RJexZJj8fimSt4RCfwptMEWu0OG7ePOu/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-sm sm:text-base"
@@ -181,7 +181,7 @@ const Home = () => {
 
                 {/* Mobile Download (external) */}
                 <a
-                  href="https://forms.gle/83owVxczRSRLm15P7"
+                  href="https://drive.google.com/file/d/1RJexZJj8fimSt4RCfwptMEWu0OG7ePOu/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-semibold w-full"
@@ -928,7 +928,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8">
             <a
-              href="https://forms.gle/83owVxczRSRLm15P7"
+              href="https://drive.google.com/file/d/1RJexZJj8fimSt4RCfwptMEWu0OG7ePOu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl transition-all transform hover:scale-105 gap-2"
