@@ -68,7 +68,7 @@ export default function DeleteAccount() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(formData),
-        }
+        },
       );
 
       // try to parse JSON safely
@@ -136,7 +136,7 @@ export default function DeleteAccount() {
                 Delete Account
               </h2>
               <p className="mt-2 text-sm text-gray-600">
-                We are sorry to see you go. Please provide your details below.
+                We are sorry to see you go.
               </p>
             </div>
 
