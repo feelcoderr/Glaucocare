@@ -70,6 +70,11 @@ export default function PrivacyPolicy() {
               <li>
                 <a href="#contact">13. Contact Us</a>
               </li>
+              <li>
+                <a href="#health-declaration">
+                  14. Google Play Health Apps Declaration
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -92,9 +97,11 @@ export default function PrivacyPolicy() {
 
             <div className="important-notice">
               <p>
-                <strong>App Classification:</strong> GlaucoCare is a HEALTH AND
-                FITNESS application. It is NOT a medical application, medical
-                device, diagnostic tool, or treatment service.
+                <strong>App Classification:</strong> GlaucoCare is a health
+                management support application that provides medication
+                reminders, health education, and organizational tools. It is not
+                a licensed medical device and does not provide clinical
+                diagnosis or treatment.
               </p>
             </div>
 
@@ -154,7 +161,11 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong>Questionnaire Responses:</strong> Responses to
-                educational questionnaires about glaucoma risk factors
+                educational awareness questionnaires about glaucoma-related
+                topics. These responses are stored for your personal reference
+                only and have no diagnostic, clinical, or medical assessment
+                value. An in-app disclaimer is displayed on all questionnaire
+                result screens.
               </li>
               <li>
                 <strong>Eye Activity Records:</strong> Your completion of eye
@@ -248,13 +259,13 @@ export default function PrivacyPolicy() {
 
             <div className="important-notice">
               <p>
-                <strong>Purpose Clarification:</strong> GlaucoCare is a Health &
-                Fitness app focused on education, awareness, and personal
-                organization. We use your information solely for personal
-                organization, educational purposes, and convenience features
-                (like reminders). We do NOT use your information for medical
-                diagnosis, treatment, clinical decision-making, or health
-                assessment purposes.
+                <strong>Purpose Clarification:</strong> GlaucoCare is a health
+                education and support app focused on glaucoma awareness,
+                medication reminders, and personal organisation. We use your
+                information solely for personal organization, educational
+                purposes, and convenience features (like reminders). We do NOT
+                use your information for medical diagnosis, treatment, clinical
+                decision-making, or health assessment purposes.
               </p>
             </div>
 
@@ -977,12 +988,37 @@ export default function PrivacyPolicy() {
             </ul>
           </div>
 
+          <div className="section" id="health-declaration">
+            <h2>14. Google Play Health Apps Declaration</h2>
+            <p>
+              In accordance with Google Plays Health Apps Declaration policy,
+              GlaucoCare has declared the following health feature categories
+              applicable to this application:
+            </p>
+            <ul>
+              <li>Diseases and Conditions Management</li>
+              <li>Disease Prevention and Public Health</li>
+              <li>Healthcare Services and Management</li>
+              <li>Medical Reference and Education</li>
+              <li>Medication and Treatment Management</li>
+            </ul>
+            <p>
+              These declarations reflect the educational, organisational, and
+              reminder features offered by the app and do not imply that
+              GlaucoCare is a regulated medical device or provides clinical
+              medical services. Always consult a qualified ophthalmologist or
+              healthcare professional for medical advice, diagnosis, and
+              treatment.
+            </p>
+          </div>
+
           <div className="important-notice">
             <p>
-              <strong>Medical Disclaimer:</strong> GlaucoCare is a Health and
-              Fitness application for educational and organizational purposes.
-              It is NOT a medical application, medical device, diagnostic tool,
-              or treatment service. The app does NOT diagnose medical
+              <strong>Medical Disclaimer:</strong> GlaucoCare is a health
+              education and personal organisation application supporting
+              glaucoma awareness and medication reminders. It is NOT a medical
+              device, diagnostic tool, or treatment service and does not provide
+              clinical diagnosis or care. The app does NOT diagnose medical
               conditions, provide medical advice or treatment, assess health
               status or medical risk, prescribe medications, or replace
               professional medical care. Always consult qualified healthcare
@@ -1000,7 +1036,7 @@ export default function PrivacyPolicy() {
           >
             © 2025 GlaucoCare Team. All rights reserved.
             <br />
-            Version 2.0 | Last Updated: December 20, 2025
+            Version 3.0 | Last Updated: February 21, 2026
           </p>
         </div>
 
@@ -1011,7 +1047,8 @@ export default function PrivacyPolicy() {
             box-sizing: border-box;
           }
           main {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            font-family:
+              -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
               "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: #333;

@@ -1113,7 +1113,7 @@ const Home = () => {
 
           <div className="border-t border-gray-800 pt-6 sm:pt-8 text-center text-gray-400">
             <p className="text-xs sm:text-sm">
-              &copy; 2025 GlaucoCare. All rights reserved. | Privacy Policy |
+              &copy; 2026 GlaucoCare. All rights reserved. | Privacy Policy |
               Terms of Service
             </p>
           </div>

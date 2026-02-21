@@ -55,10 +55,11 @@ export default function TermsAndConditions() {
             </p>
 
             <p>
-              GlaucoCare is classified as a HEALTH AND FITNESS application
-              focused on education, awareness, and personal organization. It is
-              NOT a medical application, medical device, diagnostic tool, or
-              treatment service.
+              GlaucoCare is classified as a health education and support
+              application focused on glaucoma awareness, medication reminders,
+              and personal organisation. It is NOT a medical device, diagnostic
+              tool, or treatment service and does not provide clinical diagnosis
+              or care.
             </p>
 
             <p>
@@ -552,13 +553,13 @@ export default function TermsAndConditions() {
           </p>
 
           <p>
-            <strong>Important Clarification:</strong> GlaucoCare is a Health and
-            Fitness app focused on education, awareness, and personal
-            organization. We use your information solely for personal
-            organization, educational purposes, and convenience features such as
-            reminders. We do NOT use your information for medical diagnosis,
-            treatment, clinical decision-making, health assessment, or disease
-            management purposes.
+            <strong>Important Clarification:</strong> GlaucoCare is a health
+            education and support app focused on glaucoma awareness, medication
+            reminders, and personal organisation. We use your information solely
+            for personal organisation, educational purposes, and convenience
+            features such as reminders. We do NOT use your information for
+            medical diagnosis, treatment, clinical decision-making, health
+            assessment, or disease management purposes.
           </p>
 
           <h3>6.3 Information Sharing and Disclosure</h3>
@@ -2588,9 +2589,10 @@ export default function TermsAndConditions() {
           <p>• You agree to be legally bound by these Terms and Conditions</p>
 
           <p>
-            • You understand that GlaucoCare is a Health and Fitness app for
-            education, awareness, and personal organization - NOT a medical
-            service, medical device, or diagnostic tool
+            • You understand that GlaucoCare is a health education and support
+            app for glaucoma awareness, medication reminders, and personal
+            organisation - NOT a medical device, diagnostic tool, or clinical
+            service
           </p>
 
           <p>
@@ -2645,9 +2647,9 @@ export default function TermsAndConditions() {
           <h2>
             <strong>END OF TERMS AND CONDITIONS</strong>
           </h2>
-          <p>Version 2.0 </p>
-          <p>Last Updated: December 20, 2025</p>
-          <p>© 2025 GlaucoCare Team. All rights reserved.</p>
+          <p>Version 3.0 </p>
+          <p>Last Updated: February 21, 2026</p>
+          <p>© 2026 GlaucoCare Team. All rights reserved.</p>
         </div>
 
         <style jsx>{`
