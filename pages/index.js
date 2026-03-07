@@ -235,7 +235,7 @@ const Home = () => {
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.glaucocare.glaucocare&hl=en"
+                  href="https://apps.apple.com/in/app/glaucocare/id6759679475"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center sm:justify-start gap-3 bg-black text-white px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-800 transition-all transform hover:scale-105 w-full sm:w-auto"
