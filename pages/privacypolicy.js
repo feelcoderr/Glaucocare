@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           <div className="header">
             <div className="logo">GlaucoCare</div>
             <h1>Privacy Policy</h1>
-            <p className="last-updated">Last Updated: December 20, 2025</p>
+            <p className="last-updated">Last Updated: March 8, 2026</p>
           </div>
 
           <div className="important-notice">
@@ -71,8 +71,13 @@ export default function PrivacyPolicy() {
                 <a href="#contact">13. Contact Us</a>
               </li>
               <li>
+                <a href="#cookies-tracking">
+                  14. Cookies and Tracking Technologies
+                </a>
+              </li>
+              <li>
                 <a href="#health-declaration">
-                  14. Google Play Health Apps Declaration
+                  15. Google Play Health Apps Declaration
                 </a>
               </li>
             </ul>
@@ -258,6 +263,20 @@ export default function PrivacyPolicy() {
             <p>We use the collected information for the following purposes:</p>
 
             <div className="important-notice">
+              <p>
+                <strong>Purpose Limitation:</strong> We use your information
+                only for the purposes stated in this policy. We do not use your
+                health information for:
+              </p>
+              <ul>
+                <li>Automated health assessments or risk scoring</li>
+                <li>Making medical decisions or recommendations</li>
+                <li>Marketing or advertising health products or services</li>
+                <li>Selling to third parties</li>
+                <li>
+                  Training artificial intelligence or machine learning models
+                </li>
+              </ul>
               <p>
                 <strong>Purpose Clarification:</strong> GlaucoCare is a health
                 education and support app focused on glaucoma awareness,
@@ -558,6 +577,37 @@ export default function PrivacyPolicy() {
               Due to our backup processes, deleted data may remain in backup
               systems for a limited time before being permanently removed.
             </p>
+
+            <h3>6.6 Specific Retention Periods</h3>
+            <p>We retain different types of data for the following periods:</p>
+            <ul>
+              <li>
+                <strong>Account Information:</strong> Retained for the duration
+                of your active account, deleted within 30 days of account
+                deletion
+              </li>
+              <li>
+                <strong>Health Data</strong> (medication reminders,
+                questionnaire responses, uploaded documents): Deleted
+                immediately upon account deletion
+              </li>
+              <li>
+                <strong>Usage Analytics</strong> (anonymized): Retained for up
+                to 2 years for app improvement purposes
+              </li>
+              <li>
+                <strong>Communications</strong> (support emails): Retained for
+                up to 3 years for customer service purposes
+              </li>
+              <li>
+                <strong>Backup Copies:</strong> Permanently deleted within 90
+                days of account deletion
+              </li>
+            </ul>
+            <p>
+              <strong>Legal Hold:</strong> We may retain data longer if required
+              by law, court order, or ongoing legal proceedings.
+            </p>
           </div>
 
           <div className="section" id="your-rights">
@@ -625,6 +675,201 @@ export default function PrivacyPolicy() {
               </li>
             </ul>
             <p>We will respond to your request within 30 days.</p>
+
+            <h3>7.8 Region-Specific Privacy Rights</h3>
+            <p>
+              Depending on your location, you may have additional privacy rights
+              under applicable local laws:
+            </p>
+
+            <h4>
+              For Users in the European Union (EU) and European Economic Area
+              (EEA):
+            </h4>
+            <p>
+              <strong>Legal Basis for Processing:</strong> We process your
+              personal data based on:
+            </p>
+            <ul>
+              <li>
+                Your explicit consent (Article 6(1)(a) GDPR) for general data
+                processing
+              </li>
+              <li>
+                Your explicit consent for health data (Article 9(2)(a) GDPR)
+              </li>
+              <li>
+                Legitimate interests for app functionality and improvements
+                (Article 6(1)(f) GDPR)
+              </li>
+            </ul>
+            <p>
+              You can withdraw your consent at any time through the app settings
+              or by contacting us.
+            </p>
+
+            <p>
+              <strong>International Data Transfers:</strong> Your data may be
+              transferred to and stored in countries outside the EU/EEA,
+              including India and United States. We ensure appropriate
+              safeguards through:
+            </p>
+            <ul>
+              <li>
+                Standard Contractual Clauses (SCCs) with our service providers
+              </li>
+              <li>
+                EU-US Data Privacy Framework for transfers to the United States
+              </li>
+              <li>Adequate security measures as required by GDPR Article 46</li>
+            </ul>
+
+            <p>
+              <strong>Data Breach Notification:</strong> In the event of a data
+              breach that poses a risk to your rights and freedoms, we will
+              notify the relevant supervisory authority within 72 hours and
+              notify you without undue delay.
+            </p>
+
+            <h4>For Users in the United Kingdom:</h4>
+            <p>
+              The UK GDPR applies to processing of your personal data. You have
+              the same rights as outlined for EU users above. Data breach
+              notifications will be made to the Information Commissioner&apos;s
+              Office (ICO) within 72 hours when required.
+            </p>
+
+            <h4>For Users in California, USA:</h4>
+            <p>
+              Under the California Consumer Privacy Act (CCPA/CPRA), you have
+              the right to:
+            </p>
+            <ul>
+              <li>
+                Know what personal information we collect and how we use it
+              </li>
+              <li>Request deletion of your personal information</li>
+              <li>
+                Opt-out of the &quot;sale&quot; or &quot;sharing&quot; of
+                personal information (Note: We do NOT sell or share your
+                personal information)
+              </li>
+              <li>Non-discrimination for exercising your CCPA rights</li>
+              <li>Correct inaccurate personal information</li>
+            </ul>
+            <p>
+              <strong>Important:</strong> We do not sell or share your personal
+              information for monetary or other valuable consideration. We do
+              not use or disclose sensitive personal information for purposes
+              other than providing our services.
+            </p>
+            <p>
+              To exercise these rights, contact us at{" "}
+              <a href="mailto:heli.desai.glaucocare@gmail.com">
+                heli.desai.glaucocare@gmail.com
+              </a>
+            </p>
+
+            <h4>For Users in Brazil:</h4>
+            <p>
+              Under the Lei Geral de Proteção de Dados (LGPD), you have rights
+              including:
+            </p>
+            <ul>
+              <li>Confirmation of the existence of processing</li>
+              <li>Access to your data</li>
+              <li>Correction of incomplete, inaccurate, or outdated data</li>
+              <li>
+                Anonymization, blocking, or elimination of unnecessary or
+                excessive data
+              </li>
+              <li>Portability of your data to another service provider</li>
+              <li>Deletion of personal data processed with your consent</li>
+              <li>
+                Information about public and private entities with which we
+                share data
+              </li>
+              <li>
+                Information about the possibility of denying consent and the
+                consequences
+              </li>
+              <li>Revocation of consent</li>
+            </ul>
+            <p>
+              <strong>Data Breach Notification:</strong> We will notify you and
+              the Brazilian National Data Protection Authority (ANPD) of data
+              breaches within a reasonable timeframe as required by LGPD.
+            </p>
+
+            <h4>For Users in Australia:</h4>
+            <p>
+              Under the Australian Privacy Principles (APPs), you have rights
+              including:
+            </p>
+            <ul>
+              <li>Access to your personal information</li>
+              <li>Correction of inaccurate information</li>
+              <li>
+                Understanding how we collect, use, and disclose your information
+              </li>
+              <li>
+                Making complaints about our handling of your personal
+                information
+              </li>
+            </ul>
+            <p>
+              <strong>Overseas Disclosure:</strong> Your personal information
+              may be disclosed to overseas recipients including service
+              providers in the United States and India. We take reasonable steps
+              to ensure overseas recipients comply with the APPs.
+            </p>
+
+            <h4>For Users in Canada:</h4>
+            <p>
+              Under the Personal Information Protection and Electronic Documents
+              Act (PIPEDA), you have rights including:
+            </p>
+            <ul>
+              <li>
+                Know why we collect, use, or disclose your personal information
+              </li>
+              <li>
+                Expect us to collect, use, or disclose your personal information
+                reasonably and appropriately
+              </li>
+              <li>
+                Know who in our organization is responsible for protecting your
+                personal information
+              </li>
+              <li>
+                Expect us to protect your personal information with appropriate
+                safeguards
+              </li>
+              <li>
+                Expect our personal information management policies and
+                practices to be clear and understandable
+              </li>
+              <li>
+                Access your personal information and ask for corrections if
+                necessary
+              </li>
+              <li>Complain about how we handle your personal information</li>
+            </ul>
+            <p>
+              <strong>International Data Transfers:</strong> Your personal
+              information may be processed and stored outside of Canada,
+              including in India and the United States. We ensure that your data
+              receives an adequate level of protection when transferred
+              internationally.
+            </p>
+
+            <h4>For Users in Singapore:</h4>
+            <p>
+              Under the Personal Data Protection Act (PDPA), you have rights
+              including access to and correction of your personal information.
+              We will notify you of the purposes for which your personal
+              information is collected, used, and disclosed.
+            </p>
           </div>
 
           <div className="section" id="permissions">
@@ -893,9 +1138,52 @@ export default function PrivacyPolicy() {
 
             <h3>11.3 Data Protection Standards</h3>
             <p>
-              We ensure that any international transfers of personal data comply
-              with applicable data protection laws and that appropriate
-              safeguards are in place to protect your information.
+              When we transfer personal information internationally, we
+              implement appropriate safeguards including:
+            </p>
+
+            <p>
+              <strong>For transfers from the EU/EEA:</strong>
+            </p>
+            <ul>
+              <li>
+                Standard Contractual Clauses (SCCs) approved by the European
+                Commission
+              </li>
+              <li>
+                EU-US Data Privacy Framework for transfers to the United States
+              </li>
+              <li>Binding Corporate Rules (where applicable)</li>
+            </ul>
+
+            <p>
+              <strong>For transfers from the UK:</strong>
+            </p>
+            <ul>
+              <li>UK-approved Standard Contractual Clauses</li>
+              <li>UK International Data Transfer Agreement (IDTA)</li>
+              <li>UK-US Data Bridge for transfers to the United States</li>
+            </ul>
+
+            <p>
+              <strong>For transfers from other regions:</strong>
+            </p>
+            <ul>
+              <li>
+                Contractual commitments requiring service providers to protect
+                data in accordance with applicable laws
+              </li>
+              <li>Security measures as described in Section 5</li>
+            </ul>
+
+            <p>
+              We ensure that all international transfers comply with applicable
+              data protection laws. If you have questions about international
+              data transfers, contact us at{" "}
+              <a href="mailto:heli.desai.glaucocare@gmail.com">
+                heli.desai.glaucocare@gmail.com
+              </a>
+              .
             </p>
           </div>
 
@@ -987,9 +1275,56 @@ export default function PrivacyPolicy() {
               <li>Any relevant details or documentation</li>
             </ul>
           </div>
+          <div className="section" id="cookies-tracking">
+            <h2>14. Cookies and Tracking Technologies</h2>
+
+            <h3>14.1 What We Use</h3>
+            <p>GlaucoCare app uses the following technologies:</p>
+            <ul>
+              <li>
+                <strong>Essential Cookies:</strong> Required for app
+                authentication and core functionality (cannot be disabled)
+              </li>
+              <li>
+                <strong>Analytics Cookies:</strong> Firebase Analytics to
+                understand app usage and improve features
+              </li>
+              <li>
+                <strong>Functional Storage:</strong> Local device storage for
+                app preferences and offline functionality
+              </li>
+            </ul>
+
+            <h3>14.2 Your Control</h3>
+            <p>You can control analytics tracking through:</p>
+            <ul>
+              <li>
+                App Settings &gt; Privacy &gt; Analytics (toggle off to disable)
+              </li>
+              <li>Device Settings &gt; GlaucoCare &gt; Permissions</li>
+            </ul>
+
+            <h3>14.3 Third-Party Analytics</h3>
+            <p>We use Firebase Analytics (Google) to collect:</p>
+            <ul>
+              <li>App usage statistics</li>
+              <li>Device information</li>
+              <li>App performance data</li>
+            </ul>
+            <p>
+              This data is anonymized and used solely for app improvement. You
+              can opt out of analytics in app settings.
+            </p>
+
+            <h3>14.4 Mobile Advertising ID</h3>
+            <p>
+              We do NOT collect or use your mobile advertising identifier (IDFA
+              on iOS, Advertising ID on Android) for any purpose.
+            </p>
+          </div>
 
           <div className="section" id="health-declaration">
-            <h2>14. Google Play Health Apps Declaration</h2>
+            <h2>15. Google Play Health Apps Declaration</h2>
             <p>
               In accordance with Google Plays Health Apps Declaration policy,
               GlaucoCare has declared the following health feature categories
@@ -1036,7 +1371,7 @@ export default function PrivacyPolicy() {
           >
             © 2025 GlaucoCare Team. All rights reserved.
             <br />
-            Version 3.0 | Last Updated: February 21, 2026
+            Version 4.0 | Last Updated: March 8, 2026
           </p>
         </div>
 

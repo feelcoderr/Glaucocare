@@ -13,7 +13,7 @@ export default function TermsAndConditions() {
         <div className="container">
           <h1>TERMS AND CONDITIONS</h1>
           <p className="center">GlaucoCare Mobile Application</p>
-          <p className="center">Last Updated: December 20, 2024</p>
+          <p className="center">Last Updated: March 8, 2026</p>
 
           <h2>1. INTRODUCTION AND ACCEPTANCE OF TERMS</h2>
 
@@ -180,6 +180,22 @@ export default function TermsAndConditions() {
           <p>
             This app does NOT replace visits to qualified healthcare
             professionals
+          </p>
+
+          <p>
+            This app does NOT use artificial intelligence (AI) or automated
+            decision-making technology (ADMT) to make health-related decisions
+            about you
+          </p>
+
+          <p>
+            This app does NOT track your location for advertising or marketing
+            purposes
+          </p>
+
+          <p>
+            This app does NOT sell or share your personal information with third
+            parties for their marketing purposes
           </p>
 
           <h2>3. MEDICAL DISCLAIMER</h2>
@@ -551,6 +567,16 @@ export default function TermsAndConditions() {
             • Protect the rights, property, and safety of GlaucoCare, our users,
             and the public
           </p>
+          <p>
+            <strong>Purpose Limitation:</strong> We use your information only
+            for the purposes stated in this policy. We do not use your health
+            information for:
+          </p>
+          <p>• Automated health assessments or risk scoring</p>
+          <p>• Making medical decisions or recommendations</p>
+          <p>• Marketing or advertising health products or services</p>
+          <p>• Selling to third parties</p>
+          <p>• Training artificial intelligence or machine learning models</p>
 
           <p>
             <strong>Important Clarification:</strong> GlaucoCare is a health
@@ -867,6 +893,75 @@ export default function TermsAndConditions() {
             To exercise any of these rights, contact us at
             heli.desai.glaucocare@gmail.com. We will respond to your request
             within 30 days.
+          </p>
+
+          <h3>6.7 Regional Compliance and Additional Terms</h3>
+
+          <p>
+            <strong>Users in the European Union:</strong>
+          </p>
+
+          <p>
+            <strong>Right to Lodge a Complaint:</strong> You have the right to
+            lodge a complaint with a supervisory authority in the EU member
+            state of your habitual residence, place of work, or place of alleged
+            infringement if you believe our processing of your personal data
+            violates GDPR.
+          </p>
+
+          <p>
+            <strong>Automated Decision-Making:</strong> We do not use automated
+            decision-making or profiling that produces legal effects or
+            similarly significantly affects you.
+          </p>
+
+          <p>
+            <strong>Users in California:</strong>
+          </p>
+
+          <p>
+            <strong>Do Not Sell My Personal Information:</strong> We do not sell
+            your personal information. We do not share your personal information
+            for cross-context behavioral advertising.
+          </p>
+
+          <p>
+            <strong>Shine the Light:</strong> Under California Civil Code
+            Section 1798.83, you may request information regarding disclosure of
+            your personal information to third parties for direct marketing
+            purposes. We do not disclose personal information to third parties
+            for their direct marketing purposes.
+          </p>
+
+          <p>
+            <strong>Users in Brazil:</strong>
+          </p>
+
+          <p>
+            <strong>Data Processing Lawful Basis:</strong> We process your
+            personal data based on your consent and for the legitimate
+            performance of our services. You may revoke consent at any time.
+          </p>
+
+          <p>
+            <strong>Users in Australia:</strong>
+          </p>
+
+          <p>
+            <strong>Notifiable Data Breaches:</strong> In the event of an
+            eligible data breach under the Privacy Act, we will notify you and
+            the Office of the Australian Information Commissioner as required.
+          </p>
+
+          <p>
+            <strong>Users in Canada:</strong>
+          </p>
+
+          <p>
+            <strong>Consent Withdrawal:</strong> You may withdraw consent for
+            the collection, use, or disclosure of your personal information at
+            any time, subject to legal or contractual restrictions and
+            reasonable notice.
           </p>
 
           <h2>7. USER RESPONSIBILITIES AND ACCEPTABLE USE</h2>
@@ -2647,8 +2742,8 @@ export default function TermsAndConditions() {
           <h2>
             <strong>END OF TERMS AND CONDITIONS</strong>
           </h2>
-          <p>Version 3.0 </p>
-          <p>Last Updated: February 21, 2026</p>
+          <p>Version 4.0 </p>
+          <p>Last Updated: March 8, 2026</p>
           <p>© 2026 GlaucoCare Team. All rights reserved.</p>
         </div>
 
